@@ -1,0 +1,900 @@
+Script started on 2020-02-20 16:08:32-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="21"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+bcohada1@g7-23:~/i240a/submit/lab4$ cd [K[K[Kls
+lab4.LOG
+bcohada1@g7-23:~/i240a/submit/lab4$ cp =r[K[K-r ~/cs240/lab4[Ks/lab4/exercises /[K.
+bcohada1@g7-23:~/i240a/submit/lab4$ ls
+exercises  lab4.LOG
+bcohada1@g7-23:~/i240a/submit/lab4$ cd exerco[Kises
+bcohada1@g7-23:~/i240a/submit/lab4/exercises$ ls
+1-point  2-shape  3-expr  Makefile
+bcohada1@g7-23:~/i240a/submit/lab4/exercises$ ls
+1-point  2-shape  3-expr  Makefile
+bcohada1@g7-23:~/i240a/submit/lab4/exercises$ ls
+bcohada1@g7-23:~/i240a/submit/lab4/exercises$ cd.[K .
+bcohada1@g7-23:/import/linux/home1/bcohada1/Desktop/exercises$ ls
+bcohada1@g7-23:/import/linux/home1/bcohada1/Desktop/exercises$ ls
+bcohada1@g7-23:/import/linux/home1/bcohada1/Desktop/exercises$ cd
+bcohada1@g7-23:~$ ls
+cs240	 Documents  i240a	    Music     projects	Templates  Videos
+Desktop  Downloads  logisimmm.circ  Pictures  Public	tmp
+bcohada1@g7-23:~$ cd[K[Kcd[K[Kls
+cs240	 Documents  i240a	    Music     projects	Templates  Videos
+Desktop  Downloads  logisimmm.circ  Pictures  Public	tmp
+bcohada1@g7-23:~$ ls
+cs240	 Documents  i240a	    Music     projects	Templates  Videos
+Desktop  Downloads  logisimmm.circ  Pictures  Public	tmp
+bcohada1@g7-23:~$ ls
+cs240	 Documents  i240a	    Music     projects	Templates  Videos
+Desktop  Downloads  logisimmm.circ  Pictures  Public	tmp
+bcohada1@g7-23:~$ ls
+cs240	 Documents  i240a	    Music     projects	Templates  Videos
+Desktop  Downloads  logisimmm.circ  Pictures  Public	tmp
+bcohada1@g7-23:~$ ls
+cs240	 Documents  i240a	    Music     projects	Templates  Videos
+Desktop  Downloads  logisimmm.circ  Pictures  Public	tmp
+bcohada1@g7-23:~$ ls
+cs240	 Documents  i240a	    Music     projects	Templates  Videos
+Desktop  Downloads  logisimmm.circ  Pictures  Public	tmp
+bcohada1@g7-23:~$ ls
+cs240	 Documents  i240a	    Music     projects	Templates  Videos
+Desktop  Downloads  logisimmm.circ  Pictures  Public	tmp
+bcohada1@g7-23:~$ ls
+cs240	 Documents  i240a	    Music     projects	Templates  Videos
+Desktop  Downloads  logisimmm.circ  Pictures  Public	tmp
+bcohada1@g7-23:~$ ls
+cs240	 Documents  i240a	    Music     projects	Templates  Videos
+Desktop  Downloads  logisimmm.circ  Pictures  Public	tmp
+bcohada1@g7-23:~$ 
+bcohada1@g7-23:~$ [Kbcohada1@g7-23:~$ cd i20[K4[K50[K40a[K[K[K[K40a
+bcohada1@g7-23:~/i240a$ ls
+README.md  submit
+bcohada1@g7-23:~/i240a$ cd s*
+bcohada1@g7-23:~/i240a/submit$ ls
+lab0  lab1  lab2  lab3	lab4
+bcohada1@g7-23:~/i240a/submit$ cd lab4
+bcohada1@g7-23:~/i240a/submit/lab4$ ls
+1-point  2-shape  3-expr  lab4.LOG  Makefile
+bcohada1@g7-23:~/i240a/submit/lab4$ cd 1*
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ;s[K[Kls
+main.cc  point.cc  point.hh
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ls =1[K[K-l
+total 12
+-rw-r--r-- 1 bcohada1 bcohada1 1174 Feb 20 16:09 main.cc
+-rw-r--r-- 1 bcohada1 bcohada1  533 Feb 20 16:09 point.cc
+-rw-r--r-- 1 bcohada1 bcohada1  654 Feb 20 16:09 point.hh
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit main.cc
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit pou[Kint,cc
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit point,cc[1Pcc.cc
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ =f [K[K-f[K[K[K--f[K[Kf //[K[K../Makef';[K[Kile
+bash: -f: command not found
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ls
+main.cc  point.cc  point.hh
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ls-f ../Makefile[C[1P../Makefile[1P../Makefile[1P../Makefile
+bash: ../Makefile: Permission denied
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ../Makefilem../Makefilea../Makefilek../Makefilee../Makefile ../Makefile-../Makefile[1P../Makefile-../Makefilef../Makefile ../Makefile
+g++ -MT point.o -MMD -MP -MF .deps/point.d -g -Wall -std=c++17 -c point.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ point.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main point.o main.o; do echo $t >>.gitignore; done
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ls
+main  main.cc  main.o  point.cc  point.hh  point.o
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ./ma'n[K[Kin
+distance from (0, 0) to (3, 4) is 5
+distance from (0, 0) to (1, 1) is 1.41421
+distance from (0, 0) to (4, 5) is 6.40312
+distance from (3, 4) to (1, 1) is 3.60555
+distance from (3, 4) to (4, 5) is 1.41421
+distance from (1, 1) to (4, 5) is 5
+
+sizeof(double) = 8
+sizeof(Point) = 16
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.cc
+
+(gedit:6539): Gtk-[1;33mWARNING[0m **: [34m16:32:34.075[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ls
+Line.cc  Line.hh  main	main.cc  main.o  point.cc  point.hh  point.o
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.gg[K[Khh
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.hh[K[K[K[K[K[K[Kgedit main.cc
+
+(gedit:9563): Gtk-[1;33mWARNING[0m **: [34m16:58:51.130[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit gedit main.cc[6PLine.hhls[Kgedit Line.cc[7P./main[4Plsmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[Kmain.cc:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[KLine[m[K’ was not declared in this scope
+   [01;31m[KLine[m[K line1 = Line(points[0], points[1]);
+   [01;31m[K^~~~[m[K
+[01m[Kmain.cc:35:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuint[m[K’
+   [01;36m[KLine[m[K line1 = Line(points[0], points[1]);
+   [01;36m[K^~~~[m[K
+   [32m[Kuint[m[K
+[01m[Kmain.cc:36:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kline2[m[K’
+   Line[01;31m[K [m[K[32m[Kline2[m[K = Line(points[2], points[3]);
+       [01;31m[K^[m[K[32m[K~~~~~[m[K
+       [32m[K;[m[K
+[01m[Kmain.cc:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kline1[m[K’ was not declared in this scope
+   [01;31m[Kline1[m[K.toString(); line2.toString();
+   [01;31m[K^~~~~[m[K
+[01m[Kmain.cc:37:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kline2[m[K’ was not declared in this scope
+   line1.toString(); [01;31m[Kline2[m[K.toString();
+                     [01;31m[K^~~~~[m[K
+[01m[Kmain.cc:[m[K At global scope:
+[01m[Kmain.cc:20:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outDistances(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutDistances[m[K(std::ostream& out)
+ [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:13:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outSizes(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutSizes[m[K(std::ostream& out) {
+ [01;35m[K^~~~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefilegedit gedit main.cc[6PLine.hhls[Kgedit Line.hh[K[K[K[K[K[K[Kmain.cc
+
+(gedit:10205): Gtk-[1;33mWARNING[0m **: [34m17:02:57.230[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:2:10:[m[K [01;31m[Kfatal error: [m[Kline.hh: No such file or directory
+ #include [01;31m[K"line.hh"[m[K
+          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+make: *** [../Makefile:48: main.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile[6Pgedit main.cc
+
+(gedit:10258): Gtk-[1;33mWARNING[0m **: [34m17:03:20.092[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+[01m[Kmain.cc:21:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outDistances(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutDistances[m[K(std::ostream& out)
+ [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:14:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outSizes(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutSizes[m[K(std::ostream& out) {
+ [01;35m[K^~~~~~~~[m[K
+g++ -MT Line.o -MMD -MP -MF .deps/Line.d -g -Wall -std=c++17 -c Line.cc
+In file included from [01m[KLine.cc:9[m[K:
+[01m[KLine.hh:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+   const [01;31m[KPoint[m[K x, y;
+         [01;31m[K^~~~~[m[K
+         [32m[Kuint[m[K
+[01m[KLine.hh:11:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kx[m[K’
+   Line[34m[K([m[KPoint[01;31m[K [m[K[32m[Kx[m[K=(0,0), Point y=(0,0)): x(x), y(y) { }
+       [34m[K~[m[K     [01;31m[K^[m[K[32m[K~[m[K
+             [32m[K)[m[K
+[01m[KLine.cc:16:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble Line::length() const[m[K’
+ double [01;31m[KLine[m[K::length() const {
+        [01;31m[K^~~~[m[K
+In file included from [01m[KLine.cc:9[m[K:
+[01m[KLine.hh:13:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kdouble Line::length(const Line&) const[m[K’
+   double [01;36m[Klength[m[K(const Line& other) const;
+          [01;36m[K^~~~~~[m[K
+[01m[KLine.hh:6:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Line[m[K’ defined here
+ class [01;36m[KLine[m[K {
+       [01;36m[K^~~~[m[K
+[01m[KLine.cc:[m[K In member function ‘[01m[Kstd::__cxx11::string Line::toString() const[m[K’:
+[01m[KLine.cc:24:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+   s << "(" << [01;31m[Kx[m[K.toString() << ", " << y.toString() << ")" << " length = " << this -> distance(x,y);
+               [01;31m[K^[m[K
+[01m[KLine.cc:24:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope
+   s << "(" << x.toString() << ", " << [01;31m[Ky[m[K.toString() << ")" << " length = " << this -> distance(x,y);
+                                       [01;31m[K^[m[K
+[01m[KLine.cc:24:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kyn[m[K’
+   s << "(" << x.toString() << ", " << [01;36m[Ky[m[K.toString() << ")" << " length = " << this -> distance(x,y);
+                                       [01;36m[K^[m[K
+                                       [32m[Kyn[m[K
+[01m[KLine.cc:24:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Line[m[K’ has no member named ‘[01m[Kdistance[m[K’
+ oString() << ", " << y.toString() << ")" << " length = " << this -> [01;31m[Kdistance[m[K(x,y);
+                                                                     [01;31m[K^~~~~~~~[m[K
+
+make: *** [../Makefile:48: Line.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile[6Pgedit main.cc[K[K[K[K[K[K[KLine.gg[K[Khh
+
+(gedit:10337): Gtk-[1;33mWARNING[0m **: [34m17:03:59.612[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.hh[K[Kcc
+
+(gedit:10389): Gtk-[1;33mWARNING[0m **: [34m17:04:21.980[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.cc[K[Khh
+
+(gedit:10538): Gtk-[1;33mWARNING[0m **: [34m17:05:34.806[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.hhcchhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+[01m[Kmain.cc:21:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outDistances(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutDistances[m[K(std::ostream& out)
+ [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:14:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outSizes(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutSizes[m[K(std::ostream& out) {
+ [01;35m[K^~~~~~~~[m[K
+g++ -MT Line.o -MMD -MP -MF .deps/Line.d -g -Wall -std=c++17 -c Line.cc
+In file included from [01m[KLine.cc:10[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+[01m[KLine.cc:17:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble Line::length() const[m[K’
+ double [01;31m[KLine[m[K::length() const {
+        [01;31m[K^~~~[m[K
+In file included from [01m[KLine.cc:10[m[K:
+[01m[KLine.hh:13:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kdouble Line::length(const Line&) const[m[K’
+   double [01;36m[Klength[m[K(const Line& other) const;
+          [01;36m[K^~~~~~[m[K
+[01m[KLine.hh:6:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Line[m[K’ defined here
+ class [01;36m[KLine[m[K {
+       [01;36m[K^~~~[m[K
+[01m[KLine.cc:[m[K In member function ‘[01m[Kstd::__cxx11::string Line::toString() const[m[K’:
+[01m[KLine.cc:25:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Line[m[K’ has no member named ‘[01m[Kdistance[m[K’
+ oString() << ", " << y.toString() << ")" << " length = " << this -> [01;31m[Kdistance[m[K(x,y);
+                                                                     [01;31m[K^~~~~~~~[m[K
+
+make: *** [../Makefile:48: Line.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile[6Pgedit Line.hh[K[Kcc
+
+(gedit:10707): Gtk-[1;33mWARNING[0m **: [34m17:08:05.327[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+[01m[Kmain.cc:21:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outDistances(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutDistances[m[K(std::ostream& out)
+ [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:14:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outSizes(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutSizes[m[K(std::ostream& out) {
+ [01;35m[K^~~~~~~~[m[K
+g++ -MT Line.o -MMD -MP -MF .deps/Line.d -g -Wall -std=c++17 -c Line.cc
+In file included from [01m[KLine.cc:10[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+[01m[KLine.cc:17:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble Line::length() const[m[K’
+ double [01;31m[KLine[m[K::length() const {
+        [01;31m[K^~~~[m[K
+In file included from [01m[KLine.cc:10[m[K:
+[01m[KLine.hh:13:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kdouble Line::length(const Line&) const[m[K’
+   double [01;36m[Klength[m[K(const Line& other) const;
+          [01;36m[K^~~~~~[m[K
+[01m[KLine.hh:6:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Line[m[K’ defined here
+ class [01;36m[KLine[m[K {
+       [01;36m[K^~~~[m[K
+[01m[KLine.cc:[m[K In member function ‘[01m[Kstd::__cxx11::string Line::toString() const[m[K’:
+[01m[KLine.cc:25:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Line[m[K’ has no member named ‘[01m[Kdistance[m[K’
+ oString() << ", " << y.toString() << ")" << " length = " << this -> [01;31m[Kdistance[m[K(x,y);
+                                                                     [01;31m[K^~~~~~~~[m[K
+
+make: *** [../Makefile:48: Line.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ [Kbcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile[6Pgedit Line.cc
+
+(gedit:11105): Gtk-[1;33mWARNING[0m **: [34m17:10:27.623[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+[01m[Kmain.cc:21:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outDistances(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutDistances[m[K(std::ostream& out)
+ [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:14:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outSizes(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutSizes[m[K(std::ostream& out) {
+ [01;35m[K^~~~~~~~[m[K
+g++ -MT Line.o -MMD -MP -MF .deps/Line.d -g -Wall -std=c++17 -c Line.cc
+In file included from [01m[KLine.cc:10[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+[01m[KLine.cc:[m[K In member function ‘[01m[Kdouble Line::length() const[m[K’:
+[01m[KLine.cc:20:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance[m[K’ was not declared in this scope
+   return [01;31m[Kdistance[m[K(x,y);
+          [01;31m[K^~~~~~~~[m[K
+[01m[KLine.cc:20:10:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/string:40[m[K,
+                 from [01m[Kpoint.hh:4[m[K,
+                 from [01m[KLine.hh:3[m[K,
+                 from [01m[KLine.cc:10[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::distance[m[K’
+     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+     [01;36m[K^~~~~~~~[m[K
+[01m[KLine.cc:[m[K In member function ‘[01m[Kstd::__cxx11::string Line::toString() const[m[K’:
+[01m[KLine.cc:25:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Line[m[K’ has no member named ‘[01m[Klenght[m[K’; did you mean ‘[01m[Klength[m[K’?
+   s << "(" << x.toString() << ", " << y.toString() << ")" << " length = " << this -> [01;31m[Klenght[m[K();
+                                                                                      [01;31m[K^~~~~~[m[K
+                                                                                      [32m[Klength[m[K
+make: *** [../Makefile:48: Line.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile[6Pgedit Line.cc
+
+(gedit:11509): Gtk-[1;33mWARNING[0m **: [34m17:13:28.297[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.ccmake -f ../Makefile
+g++ -MT Line.o -MMD -MP -MF .deps/Line.d -g -Wall -std=c++17 -c Line.cc
+In file included from [01m[KLine.cc:10[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+[01m[KLine.cc:[m[K In member function ‘[01m[Kdouble Line::length() const[m[K’:
+[01m[KLine.cc:20:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance[m[K’ was not declared in this scope
+   return [01;31m[Kdistance[m[K(x,y);
+          [01;31m[K^~~~~~~~[m[K
+[01m[KLine.cc:20:10:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/string:40[m[K,
+                 from [01m[Kpoint.hh:4[m[K,
+                 from [01m[KLine.hh:3[m[K,
+                 from [01m[KLine.cc:10[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::distance[m[K’
+     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+     [01;36m[K^~~~~~~~[m[K
+make: *** [../Makefile:48: Line.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile[6Pgedit Line.cc
+
+(gedit:11630): Gtk-[1;33mWARNING[0m **: [34m17:16:10.279[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.ccmake -f ../Makefile
+g++ -MT Line.o -MMD -MP -MF .deps/Line.d -g -Wall -std=c++17 -c Line.cc
+In file included from [01m[KLine.cc:10[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+[01m[KLine.cc:[m[K In member function ‘[01m[Kdouble Line::length() const[m[K’:
+[01m[KLine.cc:20:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance[m[K’ was not declared in this scope
+   double dist = (double) [01;31m[Kdistance[m[K(x,y);
+                          [01;31m[K^~~~~~~~[m[K
+[01m[KLine.cc:20:26:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/string:40[m[K,
+                 from [01m[Kpoint.hh:4[m[K,
+                 from [01m[KLine.hh:3[m[K,
+                 from [01m[KLine.cc:10[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::distance[m[K’
+     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+     [01;36m[K^~~~~~~~[m[K
+make: *** [../Makefile:48: Line.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile[6Pgedit Line.ccmake -f ../Makefile[Kmake -f ../Makefile[6Pgedit Line.cc
+
+(gedit:11937): Gtk-[1;33mWARNING[0m **: [34m17:17:17.924[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit Line.ccmake -f ../Makefile
+g++ -MT Line.o -MMD -MP -MF .deps/Line.d -g -Wall -std=c++17 -c Line.cc
+In file included from [01m[KLine.cc:10[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+g++ point.o main.o Line.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main point.o main.o Line.o; do echo $t >>.gitignore; done
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile[K./ [Kmain
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ls
+Line.cc  Line.hh  Line.o  main	main.cc  main.o  point.cc  point.hh  point.o
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ./main
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ./main[4Pls./mainmake -f ../Makefile[6Pgedit Line.ccmake -f ../Makefile
+make: Nothing to be done for 'all'.
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile./main[K[K[K[K[K[K[Kls
+Line.cc  Line.hh  Line.o  main	main.cc  main.o  point.cc  point.hh  point.o
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit main [K.cc
+
+(gedit:12141): Gtk-[1;33mWARNING[0m **: [34m17:18:44.780[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit main.ccls[Kmake -f ../Makefile./main[Kmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[Kmain.cc:38:10:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+   printf([01;35m[K"%s\n"[m[K,[32m[Kline1.toString()[m[K);
+          [01;35m[K^~~~~~[m[K [32m[K~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.cc:[m[K At global scope:
+[01m[Kmain.cc:21:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outDistances(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutDistances[m[K(std::ostream& out)
+ [01;35m[K^~~~~~~~~~~~[m[K
+[01m[Kmain.cc:14:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid outSizes(std::ostream&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[KoutSizes[m[K(std::ostream& out) {
+ [01;35m[K^~~~~~~~[m[K
+g++ point.o main.o Line.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main point.o main.o Line.o; do echo $t >>.gitignore; done
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile[6Pgedit main.ccls[Kmake -f ../Makefile./main[K
+�`�fhU
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ./mainmake -f ../Makefile[6Pgedit main.cc
+
+(gedit:12285): Gtk-[1;33mWARNING[0m **: [34m17:19:52.743[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit main.cc[7P./mainmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+g++ point.o main.o Line.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main point.o main.o Line.o; do echo $t >>.gitignore; done
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ./main
+((0, 0), (3, 4)) length = 5((1, 1), (4, 5)) length = 5distance from (0, 0) to (3, 4) is 5
+distance from (0, 0) to (1, 1) is 1.41421
+distance from (0, 0) to (4, 5) is 6.40312
+distance from (3, 4) to (1, 1) is 3.60555
+distance from (3, 4) to (4, 5) is 1.41421
+distance from (1, 1) to (4, 5) is 5
+
+sizeof(double) = 8
+sizeof(Point) = 16
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ./mainmake -f ../Makefile
+make: Nothing to be done for 'all'.
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ 
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile./main[Kmake -f ../Makefile[6Pgedit main.cc
+
+(gedit:12548): Gtk-[1;33mWARNING[0m **: [34m17:23:34.897[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ gedit main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[KLine.hh:11:19:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,[01;35m[K0[m[K), Point y=(0,0)): x(x), y(y) { }
+                   [01;35m[K^[m[K
+[01m[KLine.hh:11:34:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   Line(Point x=(0,0), Point y=(0,[01;35m[K0[m[K)): x(x), y(y) { }
+                                  [01;35m[K^[m[K
+g++ point.o main.o Line.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main point.o main.o Line.o; do echo $t >>.gitignore; done
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ make -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[Kmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile./main[K
+((0, 0), (3, 4)) length = 5
+((1, 1), (4, 5)) length = 5
+distance from (0, 0) to (3, 4) is 5
+distance from (0, 0) to (1, 1) is 1.41421
+distance from (0, 0) to (4, 5) is 6.40312
+distance from (3, 4) to (1, 1) is 3.60555
+distance from (3, 4) to (4, 5) is 1.41421
+distance from (1, 1) to (4, 5) is 5
+
+sizeof(double) = 8
+sizeof(Point) = 16
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ ./mainmake -f ../Makefile[6Pgedit main.ccmake -f ../Makefile[6Pgedit main.cc
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ cd ,,
+bash: cd: ,,: No such file or directory
+bcohada1@g7-23:~/i240a/submit/lab4/1-point$ cd ..
+bcohada1@g7-23:~/i240a/submit/lab4$ ls
+1-point  2-shape  3-expr  lab4.LOG  Makefile
+bcohada1@g7-23:~/i240a/submit/lab4$ cd 2*
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ ls
+main.cc  point.cc  point.hh  shapes.hh	tostring.cc  tostring.hh
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ 2*
+bash: 2*: command not found
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ ls
+main.cc  point.cc  point.hh  shapes.hh	tostring.cc  tostring.hh
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ ls2*lscd 2*[3Plscd ..,,gedit main.cc[7P./mainmake -f ../Makefile
+g++ -MT tostring.o -MMD -MP -MF .deps/tostring.d -g -Wall -std=c++17 -c tostring.cc
+g++ -MT point.o -MMD -MP -MF .deps/point.d -g -Wall -std=c++17 -c point.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ tostring.o point.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o point.o main.o; do echo $t >>.gitignore; done
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ ,.[K[K./main
+Circle[(0, 0), 1] perimeter: 6.28319
+Rectangle[(1, 1), (4, 5)] perimeter: 14
+Circle[(1, 1), 2] perimeter: 12.5664
+Rectangle[(0, 0), (5, 4)] perimeter: 18
+
+sizeof(double) = 8
+sizeof(Point) = 24
+
+sizeof(ToString) = 8
+sizeof(Shape) = 8
+sizeof(Circle) = 40
+sizeof(Rectangle) = 56
+
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ gedit shapes.cc
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ gedit shapes.cc[K[K[K[K[K[K[K*
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ gedit sh*[K[K[Kro[K[Ktoas*.[K[K[K[K[K[K[K[K[K[K[K[Kgedit shapes.cc
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ gedit shapes.cc[K[Khh
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ gedit shapes.hh
+
+(gedit:14634): Gtk-[1;33mWARNING[0m **: [34m18:02:55.161[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ gedit shapes.hhcc[Kgedit shapes.cc[9P./mainmake -f ../Makefilels[Kmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[Kshapes.hh:[m[K In member function ‘[01m[Kdouble Circle::area() const[m[K’:
+[01m[Kshapes.hh:33:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kradious[m[K’ was not declared in this scope
+   double area() const { return [01;31m[Kradious[m[K * radious * M_PI; }
+                                [01;31m[K^~~~~~~[m[K
+[01m[Kshapes.hh:33:32:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kradius[m[K’
+   double area() const { return [01;36m[Kradious[m[K * radious * M_PI; }
+                                [01;36m[K^~~~~~~[m[K
+                                [32m[Kradius[m[K
+[01m[Kshapes.hh:[m[K At global scope:
+[01m[Kshapes.hh:59:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble Rectangle::perimeter() const[m[K’ cannot be overloaded with ‘[01m[Kdouble Rectangle::perimeter() const[m[K’
+   double [01;31m[Kperimeter[m[K() const {
+          [01;31m[K^~~~~~~~~[m[K
+[01m[Kshapes.hh:52:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble Rectangle::perimeter() const[m[K’
+   double [01;36m[Kperimeter[m[K() const {
+          [01;36m[K^~~~~~~~~[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid outShapes(std::ostream&)[m[K’:
+[01m[Kmain.cc:45:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Shape[m[K’ has no member named ‘[01m[Karea[m[K’
+     auto perim = shapeP->[01;31m[Karea[m[K();
+                          [01;31m[K^~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ make -f ../Makefile[4Pgedit shapes.hh
+
+(gedit:18298): Gtk-[1;33mWARNING[0m **: [34m18:12:24.417[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ gedit shapes.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[Kshapes.hh:60:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble Rectangle::perimeter() const[m[K’ cannot be overloaded with ‘[01m[Kdouble Rectangle::perimeter() const[m[K’
+   double [01;31m[Kperimeter[m[K() const {
+          [01;31m[K^~~~~~~~~[m[K
+[01m[Kshapes.hh:53:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble Rectangle::perimeter() const[m[K’
+   double [01;36m[Kperimeter[m[K() const {
+          [01;36m[K^~~~~~~~~[m[K
+[01m[Kmain.cc:11:35:[m[K [01;31m[Kerror: [m[Kinvalid abstract type ‘[01m[KRectangle[m[K’ for ‘[01m[Krectangles[m[K’
+ static const Rectangle rectangles[[01;31m[K][m[K = {
+                                   [01;31m[K^[m[K
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[Kshapes.hh:46:8:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KRectangle[m[K’:
+ struct [01;36m[KRectangle[m[K : public Shape {
+        [01;36m[K^~~~~~~~~[m[K
+[01m[Kshapes.hh:19:18:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual double Shape::area() const[m[K’
+   virtual double [01;36m[Karea[m[K() const = 0;
+                  [01;36m[K^~~~[m[K
+[01m[Kmain.cc:12:37:[m[K [01;31m[Kerror: [m[Kinvalid cast to abstract class type ‘[01m[KRectangle[m[K’
+   Rectangle(Point(1, 1), Point(4, 5)[01;31m[K)[m[K,
+                                     [01;31m[K^[m[K
+[01m[Kmain.cc:13:37:[m[K [01;31m[Kerror: [m[Kinvalid cast to abstract class type ‘[01m[KRectangle[m[K’
+   Rectangle(Point(0, 0), Point(5, 4)[01;31m[K)[m[K,
+                                     [01;31m[K^[m[K
+make: *** [../Makefile:48: main.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ make -f ../Makefile[4Pgedit shapes.hh
+
+(gedit:18669): Gtk-[1;33mWARNING[0m **: [34m18:15:33.950[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ gedit shapes.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:2[m[K:
+[01m[Kshapes.hh:60:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble Rectangle::perimeter() const[m[K’ cannot be overloaded with ‘[01m[Kdouble Rectangle::perimeter() const[m[K’
+   double [01;31m[Kperimeter[m[K() const {
+          [01;31m[K^~~~~~~~~[m[K
+[01m[Kshapes.hh:53:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble Rectangle::perimeter() const[m[K’
+   double [01;36m[Kperimeter[m[K() const {
+          [01;36m[K^~~~~~~~~[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kvoid outShapes(std::ostream&)[m[K’:
+[01m[Kmain.cc:46:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class Shape[m[K’ has no member named ‘[01m[Karea[m[K’
+     auto area  = shapeP->[01;31m[Karea[m[K();
+                          [01;31m[K^~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ make -f ../Makefile[4Pgedit shapes.hh
+
+(gedit:18716): Gtk-[1;33mWARNING[0m **: [34m18:15:51.874[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ gedit shapes.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ tostring.o point.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o point.o main.o; do echo $t >>.gitignore; done
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ ./main
+Circle[(0, 0), 1] perimeter: 6.28319, area: 3.14159
+Rectangle[(1, 1), (4, 5)] perimeter: 14, area: 12
+Circle[(1, 1), 2] perimeter: 12.5664, area: 12.5664
+Rectangle[(0, 0), (5, 4)] perimeter: 18, area: 20
+
+sizeof(double) = 8
+sizeof(Point) = 24
+
+sizeof(ToString) = 8
+sizeof(Shape) = 8
+sizeof(Circle) = 40
+sizeof(Rectangle) = 56
+
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ ./mainmake -f ../Makefile./main[Kmake -f ../Makefile[4Pgedit shapes.hhmake -f ../Makefile[4Pgedit shapes.hh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khed[K[K[Kgedit manin[K[Ki[K[Kin.cc
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ cd ,,
+bash: cd: ,,: No such file or directory
+bcohada1@g7-23:~/i240a/submit/lab4/2-shape$ cd ..
+bcohada1@g7-23:~/i240a/submit/lab4$ ls
+1-point  2-shape  3-expr  lab4.LOG  Makefile
+bcohada1@g7-23:~/i240a/submit/lab4$ cd 3*
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ ls
+expr.cc  expr.hh  main.cc  parse.cc  parse.hh  tostring.cc  tostring.hh
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ gedit expr [K.cc
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ gedit expr.ccls[Kcd 3*[3Plscd ..,,gedit main.cc[7P./mainmake -f ../Makefile
+g++ -MT tostring.o -MMD -MP -MF .deps/tostring.d -g -Wall -std=c++17 -c tostring.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -MT parse.o -MMD -MP -MF .deps/parse.d -g -Wall -std=c++17 -c parse.cc
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ ./main
+usage: ./main PREFIX_EXPR...
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ ls
+expr.cc  expr.hh  expr.o  main	main.cc  main.o  parse.cc  parse.hh  parse.o  tostring.cc  tostring.hh	tostring.o
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ ls./main[K[K[K[K[K[Kgedit expr.hh
+
+(gedit:19822): Gtk-[1;33mWARNING[0m **: [34m18:25:33.635[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ gedit expr.hhls[Kgedit expr.hh
+
+(gedit:20069): Gtk-[1;33mWARNING[0m **: [34m18:30:30.006[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ gedit expr.hh[K[K[K[K[K[K[Kmain.cc
+
+(gedit:20725): Gtk-[1;33mWARNING[0m **: [34m18:33:30.368[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ gedit main.ccexpr.hhls[K./mainmake -f ../Makefile[6Pgedit expr.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:33:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   int [01;31m[Keval[m[K const{
+       [01;31m[K^~~~[m[K
+           [32m[K;[m[K
+[01m[Kexpr.hh:33:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   int eval const[01;31m[K{[m[K
+                 [01;31m[K^[m[K
+[01m[Kexpr.hh:58:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   int [01;31m[Keval[m[K const(){
+       [01;31m[K^~~~[m[K
+           [32m[K;[m[K
+[01m[Kexpr.hh:58:18:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   int eval const([01;31m[K)[m[K{
+                  [01;31m[K^[m[K
+[01m[Kexpr.hh:85:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   int [01;31m[Keval[m[K const{
+       [01;31m[K^~~~[m[K
+           [32m[K;[m[K
+[01m[Kexpr.hh:85:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   int eval const[01;31m[K{[m[K
+                 [01;31m[K^[m[K
+[01m[Kexpr.hh:107:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   int [01;31m[Keval[m[K const{
+       [01;31m[K^~~~[m[K
+           [32m[K;[m[K
+[01m[Kexpr.hh:107:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   int eval const[01;31m[K{[m[K
+                 [01;31m[K^[m[K
+[01m[Kexpr.hh:130:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   int [01;31m[Keval[m[K const{
+       [01;31m[K^~~~[m[K
+           [32m[K;[m[K
+[01m[Kexpr.hh:130:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   int eval const[01;31m[K{[m[K
+                 [01;31m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = IntExpr; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<IntExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {int&, IntExpr::Private}; _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}; _Tp = IntExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = IntExpr; _Alloc = std::allocator<IntExpr>; _Args = {int&, IntExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = IntExpr; _Args = {int&, IntExpr::Private}][m[K’
+[01m[Kexpr.hh:28:55:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KIntExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:20:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KIntExpr[m[K’:
+ class [01;36m[KIntExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:12:14:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int Expr::eval() const[m[K’
+  virtual int [01;36m[Keval[m[K() const=0;
+              [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = AddExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; _Tp = AddExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = AddExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; _Tp = AddExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<AddExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; _Tp = AddExpr; _Alloc = std::allocator<AddExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = AddExpr; _Alloc = std::allocator<AddExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AddExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; _Tp = AddExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AddExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}; _Tp = AddExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = AddExpr; _Alloc = std::allocator<AddExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = AddExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, AddExpr::Private}][m[K’
+[01m[Kexpr.hh:56:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KAddExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:47:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KAddExpr[m[K’:
+ class [01;36m[KAddExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:12:14:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int Expr::eval() const[m[K’
+  virtual int [01;36m[Keval[m[K() const=0;
+              [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = SubExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = SubExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<SubExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr; _Alloc = std::allocator<SubExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = SubExpr; _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}; _Tp = SubExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = SubExpr; _Alloc = std::allocator<SubExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = SubExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, SubExpr::Private}][m[K’
+[01m[Kexpr.hh:81:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KSubExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:72:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KSubExpr[m[K’:
+ class [01;36m[KSubExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:12:14:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int Expr::eval() const[m[K’
+  virtual int [01;36m[Keval[m[K() const=0;
+              [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<MulExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr; _Alloc = std::allocator<MulExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MulExpr; _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}; _Tp = MulExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MulExpr; _Alloc = std::allocator<MulExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MulExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, MulExpr::Private}][m[K’
+[01m[Kexpr.hh:105:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KMulExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:96:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KMulExpr[m[K’:
+ class [01;36m[KMulExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:12:14:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int Expr::eval() const[m[K’
+  virtual int [01;36m[Keval[m[K() const=0;
+              [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/8/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/8/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/8/string:41[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+/usr/include/c++/8/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = DivExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; _Tp = DivExpr][m[K’:
+[01m[K/usr/include/c++/8/bits/alloc_traits.h:475:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = DivExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; _Tp = DivExpr; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<DivExpr>][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:545:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; _Tp = DivExpr; _Alloc = std::allocator<DivExpr>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:677:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = DivExpr; _Alloc = std::allocator<DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr_base.h:1342:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; _Tp = DivExpr; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}; _Tp = DivExpr][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:705:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = DivExpr; _Alloc = std::allocator<DivExpr>; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}][m[K’
+[01m[K/usr/include/c++/8/bits/shared_ptr.h:721:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = DivExpr; _Args = {std::shared_ptr<Expr>&, std::shared_ptr<Expr>&, DivExpr::Private}][m[K’
+[01m[Kexpr.hh:128:63:[m[K   required from here
+[01m[K/usr/include/c++/8/ext/new_allocator.h:136:4:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KDivExpr[m[K’
+  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:119:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KDivExpr[m[K’:
+ class [01;36m[KDivExpr[m[K : public Expr {
+       [01;36m[K^~~~~~~[m[K
+[01m[Kexpr.hh:12:14:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual int Expr::eval() const[m[K’
+  virtual int [01;36m[Keval[m[K() const=0;
+              [01;36m[K^~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ make -f ../Makefile[6Pgedit main.ccexpr.hh
+
+(gedit:21042): Gtk-[1;33mWARNING[0m **: [34m18:36:49.242[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ gedit expr.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -MT parse.o -MMD -MP -MF .deps/parse.d -g -Wall -std=c++17 -c parse.cc
+g++ -MT expr.o -MMD -MP -MF .deps/expr.d -g -Wall -std=c++17 -c expr.cc
+g++ tostring.o main.o parse.o expr.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main tostring.o main.o parse.o expr.o; do echo $t >>.gitignore; done
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ ./main
+usage: ./main PREFIX_EXPR...
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ ./main 3 * 5
+3=3
+unexpected end-of-input "expr.cc"
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ ./main 3 * 5[K[K[K[K*5
+3=3
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ ./main 3*5[K[K
+3=3
+bcohada1@g7-23:~/i240a/submit/lab4/3-expr$ ./main 3*5 * 5[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+bcohada1@g7-23:~/i240a/submit/lab4$ cd..
+bash: cd..: command not found
+bcohada1@g7-23:~/i240a/submit/lab4$ cd ..
+bcohada1@g7-23:~/i240a/submit$ cd ..
+bcohada1@g7-23:~/i240a$ gitr[K branch -l[Kbcohada1@g7-23:~/i240a$ git branch -l[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+
+Script done on 2020-02-20 18:59:29-05:00 [COMMAND_EXIT_CODE="0"]
