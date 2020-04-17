@@ -1,0 +1,625 @@
+Script started on 2020-04-17 17:28:50-0400
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ cp -r ~/cs240/labs/lab8/exercises ..[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CM/cs240/labs/lab8/exercises .[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[Ca/cs240/labs/lab8/exercises .[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[Cs/cs240/labs/lab8/exercises .[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[Ca/cs240/labs/lab8/exercis[1@e[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C*/cs240/labs/lab8/exerci[1@s[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C
+
+cp: '~Masa*/cs240/labs/lab8/exercises' durumlanamadı: Böyle bir dosya ya da dizin yok
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ cp -r ~Masa*/cs240/labs/lab8/exerciises .[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/cs240/labs/lab8/exerc[1@i[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[CC/cs240/labs/lab8/exer[1@c[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[CS/cs240/labs/lab8/exe[1@r[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+cp: '~Masa*/CS/cs240/labs/lab8/exercises' durumlanamadı: Böyle bir dosya ya da dizin yok
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ cp -r ~Masa*/CS/cs240/labs/lab8/exeercises .[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/Masa*/CS/cs240/labs/lab8/ex[1@e[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ [C[C[C[C[C[C[C[C
+
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ ls
+[0m[01;34mexercises[0m  lab8.LOG
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ cd w[Kexercises/
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ la
+[0m[01;34m3-subshells[0m
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ ls
+[0m[01;34m3-subshells[0m
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ env
+CLUTTER_IM_MODULE=xim
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LC_MEASUREMENT=en_US.UTF-8
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_PAPER=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+XDG_MENU_PREFIX=gnome-
+LANG=tr_TR.UTF-8
+MANAGERPID=1013
+DISPLAY=:0
+OLDPWD=/home/berk/Masaüstü/CS/i240b/submit/lab8
+INVOCATION_ID=777ad926306040ca83b78ffd4ef1f0ab
+GNOME_SHELL_SESSION_MODE=ubuntu
+COLORTERM=truecolor
+USERNAME=berk
+XDG_VTNR=1
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+LC_NAME=en_US.UTF-8
+XDG_SESSION_ID=1
+USER=berk
+DESKTOP_SESSION=ubuntu
+QT4_IM_MODULE=xim
+TEXTDOMAINDIR=/usr/share/locale/
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/a1531f1d_79f5_46f5_b95f_9b86f093937a
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+PWD=/home/berk/Masaüstü/CS/i240b/submit/lab8/exercises
+HOME=/home/berk
+JOURNAL_STREAM=9:33923
+TEXTDOMAIN=im-config
+SSH_AGENT_PID=1201
+QT_ACCESSIBILITY=1
+XDG_SESSION_TYPE=x11
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_SESSION_DESKTOP=ubuntu
+LC_ADDRESS=en_US.UTF-8
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=1aef7a6e26e315bd2a7b13445e99c86d
+LC_NUMERIC=en_US.UTF-8
+GTK_MODULES=gail:atk-bridge
+WINDOWPATH=1
+SHELL=/bin/bash
+VTE_VERSION=5202
+TERM=xterm-256color
+QT_IM_MODULE=ibus
+XMODIFIERS=@im=ibus
+IM_CONFIG_PHASE=2
+DBUS_STARTER_BUS_TYPE=session
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GNOME_TERMINAL_SERVICE=:1.107
+XDG_SEAT=seat0
+SHLVL=2
+LC_TELEPHONE=en_US.UTF-8
+GDMSESSION=ubuntu
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LOGNAME=berk
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=1aef7a6e26e315bd2a7b13445e99c86d
+XDG_RUNTIME_DIR=/run/user/1000
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+PATH=/home/berk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+LC_IDENTIFICATION=en_US.UTF-8
+SESSION_MANAGER=local/berk-pc:@/tmp/.ICE-unix/1088,unix/berk-pc:/tmp/.ICE-unix/1088
+LESSOPEN=| /usr/bin/lesspipe %s
+GTK_IM_MODULE=ibus
+LC_TIME=en_US.UTF-8
+_=/usr/bin/env
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ eco[Kho $HOME
+/home/berk
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ echo $HOME[K[K[K[KPATH
+/home/berk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ echo $xxx
+
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ xxx=123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ echo $xxx
+123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ env | grep xxx
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ export xxx
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ export xxx[4@nv | grep[C[C[C[C
+[01;31m[Kxxx[m[K=123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ export xx=456
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ export xx=456nv | grep xxx[K
+[01;31m[Kxx[m[K=456
+[01;31m[Kxx[m[Kx=123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ export = [K[Kp = $PATH
+bash: export: `=': geçerli bir belirteç değil
+bash: export: `/home/berk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin': geçerli bir belirteç değil
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ export p = $PATH[K[K[K[K[K[K[K[K=$PARH[K[KR[KTH
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ exh[K[Kxho[K[K[Kx[Kcho $p
+/home/berk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ echo $pxport p=$PATH[1P$PATH[1P$PATH[C[C[C[C[C-[K=[K
+bash: export: `/home/berk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin': geçerli bir belirteç değil
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ exoir[K[K[Kport [K[K[K[K[K[K[K-[Krm $pa[K[KPATH
+rm: '/home/berk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin' silinemedi: Böyle bir dosya ya da dizin yok
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ ls[K[Kub[Knset
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ unset $PATH
+bash: unset: `/home/berk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin': geçerli bir belirteç değil
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ unset $PATH[1PPATH
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ echo $PATH
+
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ ls
+bash: ls: Böyle bir dosya ya da dizin yok
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ export [K $PATH [K=o[Kp
+bash: export: `=p': geçerli bir belirteç değil
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ export $PATH=p$p[C[C[C[1PPATH=$p
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ echo ${P[K[KPATH
+/home/berk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ ;[Kls
+[0m[01;34m3-subshells[0m
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ ls: wc *
+
+Command 'ls:' not found, did you mean:
+
+  command 'lsd' from snap lsd (0.16.0)
+  command 'lsm' from deb lsm
+  command 'lsc' from deb livescript
+  command 'lsh' from deb lsh-client
+  command 'lsw' from deb suckless-tools
+  command 'ls' from deb coreutils
+
+See 'snap info <snapname>' for additional versions.
+
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ ls
+[0m[01;34m3-subshells[0m
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ ls; wc *
+[0m[01;34m3-subshells[0m
+wc: 3-subshells: Bir dizin
+      0       0       0 3-subshells
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ find -L `[K~/cs250[K[K40 -name '* .c'
+find: ‘/home/berk/cs240’: Böyle bir dosya ya da dizin yok
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ [K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ find -L ~/cs240 -name '*.c'[1@*[1P[C[1@/[1@M[1@a[1@*[1@s[C[1@*[1P[C[1@/[1@C[1@D[1P[1@S
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ find -L ~/Mas*/CS/cs240 -name '*.c'c'
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ptr-to-non-const.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-non-const.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-2.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-1.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/const-ptr-inc.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-expr.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/uninit-ref.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-literal.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/command.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/command.cc
+/home/berk/Masaüstü/CS/cs240/slides/complexity1/code/max-find.cc
+/home/berk/Masaüstü/CS/cs240/slides/complexity1/code/seq-search.cc
+/home/berk/Masaüstü/CS/cs240/slides/complexity1/code/sq.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections2/code/int-bst.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections2/code/maxheap.cc
+/home/berk/Masaüstü/CS/cs240/slides/sorting/code/sorts.cc
+/home/berk/Masaüstü/CS/cs240/slides/sorting/code/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/sum-array.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/hello.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/exercises/call-params.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/exercises/autogen-fns.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/exercises/constness.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/exercises/ref-ptrs.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/class-point.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/smart-ptr.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/autogen-fns2.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/struct-point.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/ptr.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/alloc-dealloc.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/autogen-fns1.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/binary-search/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/linear-search/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/ordered-linear-search/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/queues/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/lists/tostring.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/lists/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/lists/command.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/2-sorts/sorts.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/2-sorts/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/3-stats/ops.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/3-stats/sorts.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/3-stats/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/4-time/now.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/1-monolithic/fns-compare.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/2-separate-compilation/fns-compare.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/2-separate-compilation/linear.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/exponential.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/fns-compare.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/cubic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/linear.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/nlg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/fact.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/lg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/quadratic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/constant.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/exponential.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/fns-compare.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/cubic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/linear.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/nlg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/fact.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/lg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/quadratic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/constant.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/0-hello/hello.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/exponential.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/fns-compare.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/cubic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/linear.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/nlg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/fact.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/lg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/quadratic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/constant.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/2-shape/point.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/2-shape/tostring.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/2-shape/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/3-expr/tostring.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/3-expr/parse.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/3-expr/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/3-expr/expr.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/1-point/point.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/1-point/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab2/exercises/2-hello/hello.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab2/exercises/3-overload/overload.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab2/exercises/1-hello/hello.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab5/exercises/1-animal/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab5/exercises/2-expr/tostring.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab5/exercises/2-expr/parse.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab5/exercises/2-expr/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab5/exercises/2-expr/expr.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/3-greet/greet.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/1-greet/greet.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/5-numpaths/numpaths.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/data/gen-nums.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/4-sortnums/sortnums.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/2-greet/greet.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab7/exercises/1-out/main.cc
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ find -L ~/Mas*/CS/cs240 -name '*.cc'[1P'[C \[K| wc-[K -l
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ find -L ~/Mas*/CS/cs240 -name '*.c' | wc -l[1@c
+102
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ find -L ~/Mas*/CS/cs240 -name '*.cc' | wc -l[1P[1P[1P
+102
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ find ~/Mas*/CS/cs240 -name '*.cc' | wc -l[C[1P
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ find ~/Mas*/CS/cs240 -name '*.c' | wc -l[K[K[K[K[K[K[K[Kc'
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ptr-to-non-const.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-non-const.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-2.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-1.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/const-ptr-inc.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-expr.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/uninit-ref.cc
+/home/berk/Masaüstü/CS/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-literal.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/command.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc
+/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/command.cc
+/home/berk/Masaüstü/CS/cs240/slides/complexity1/code/max-find.cc
+/home/berk/Masaüstü/CS/cs240/slides/complexity1/code/seq-search.cc
+/home/berk/Masaüstü/CS/cs240/slides/complexity1/code/sq.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections2/code/int-bst.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections2/code/maxheap.cc
+/home/berk/Masaüstü/CS/cs240/slides/sorting/code/sorts.cc
+/home/berk/Masaüstü/CS/cs240/slides/sorting/code/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/sum-array.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/hello.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/exercises/call-params.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/exercises/autogen-fns.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/exercises/constness.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/exercises/ref-ptrs.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/class-point.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/smart-ptr.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/autogen-fns2.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/struct-point.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/ptr.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/alloc-dealloc.cc
+/home/berk/Masaüstü/CS/cs240/slides/c++-intro/code/autogen-fns1.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/binary-search/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/linear-search/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/ordered-linear-search/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/queues/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/lists/tostring.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/lists/main.cc
+/home/berk/Masaüstü/CS/cs240/slides/collections1/code/lists/command.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/2-sorts/sorts.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/2-sorts/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/3-stats/ops.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/3-stats/sorts.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/3-stats/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab9/exercises/4-time/now.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/1-monolithic/fns-compare.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/2-separate-compilation/fns-compare.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/2-separate-compilation/linear.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/exponential.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/fns-compare.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/cubic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/linear.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/nlg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/fact.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/lg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/quadratic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/5-auto-dependencies/constant.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/exponential.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/fns-compare.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/cubic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/linear.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/nlg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/fact.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/lg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/quadratic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/4-dependencies/constant.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/0-hello/hello.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/exponential.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/fns-compare.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/cubic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/linear.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/nlg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/fact.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/lg.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/quadratic.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab1/exercises/3-makefile/constant.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/2-shape/point.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/2-shape/tostring.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/2-shape/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/3-expr/tostring.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/3-expr/parse.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/3-expr/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/3-expr/expr.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/1-point/point.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab4/exercises/1-point/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab2/exercises/2-hello/hello.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab2/exercises/3-overload/overload.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab2/exercises/1-hello/hello.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab5/exercises/1-animal/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab5/exercises/2-expr/tostring.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab5/exercises/2-expr/parse.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab5/exercises/2-expr/main.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab5/exercises/2-expr/expr.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/3-greet/greet.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/1-greet/greet.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/5-numpaths/numpaths.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/data/gen-nums.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/4-sortnums/sortnums.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab3/exercises/2-greet/greet.cc
+/home/berk/Masaüstü/CS/cs240/labs/lab7/exercises/1-out/main.cc
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ sk[Kleep 20 *[K&
+[1] 4243
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ fo[K[Kjobs
+[1]+  Çalışıyor           sleep 20 &
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ jobssleep 20 &[K[K[K[K5
+ls
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ ls
+[0m[01;34m3-subshells[0m
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ lssleep 5 ^[K&[K[K[K20[K[K[K[K[K[K[K[Kjobs
+[1]+  Bitti                   sleep 20
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ jobs[2Plssleep 5[3Pjobssleep 20 &
+[1] 4250
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ jobs
+[1]+  Çalışıyor           sleep 20 &
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ kill $[K%1
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ ls
+[0m[01;34m3-subshells[0m
+[1]+  Sonlandırıldı        sleep 20
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ job
+
+Command 'job' not found, did you mean:
+
+  command 'jo' from snap jo (1.3)
+  command 'joe' from deb joe
+  command 'joe' from deb joe-jupp
+  command 'jdb' from deb openjdk-11-jdk-headless
+  command 'jdb' from deb openjdk-8-jdk-headless
+  command 'jtb' from deb jtb
+  command 'jot' from deb athena-jot
+  command 'jo' from deb jo
+
+See 'snap info <snapname>' for additional versions.
+
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ jobs
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ \[Kjobs
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ cd ..
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ cd exercises/
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ cd 3-subshells/
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ ;s
+bash: beklenmeyen dizgecik `;' yakınında sözdizimi hatası
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ ls
+Makefile
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ echo xxx
+xxx
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ echo xxx$xxx
+123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ cd ~
+]0;berk@berk-pc: ~[01;32mberk@berk-pc[00m:[01;34m~[00m$ pwd
+/home/berk
+]0;berk@berk-pc: ~[01;32mberk@berk-pc[00m:[01;34m~[00m$ xc[K[Kxx=123
+]0;berk@berk-pc: ~[01;32mberk@berk-pc[00m:[01;34m~[00m$ pwd; echo $xx; *[K(xx=abc; cd \[K*/[K[K/; pwd ;[K[K; echo $cxx[K[K[Kxx); pwd; echo $xx
+/home/berk
+123
+/
+abc
+/home/berk
+123
+]0;berk@berk-pc: ~[01;32mberk@berk-pc[00m:[01;34m~[00m$ cd ma[K[KMasaüstü/
+]0;berk@berk-pc: ~/Masaüstü[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü[00m$ cd CS
+]0;berk@berk-pc: ~/Masaüstü/CS[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS[00m$ cd c[Ki240b/
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b[00m$ CD S[K[K[K[Kcd submit/
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit[00m$ cd lab8[K8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ cd 3
+bash: cd: 3: Böyle bir dosya ya da dizin yok
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ ls
+[0m[01;34mexercises[0m  lab8.LOG
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ cd exercises/
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ cd 3-subshells/
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ make
+cd ~/cs240
+/bin/sh: 1: cd: can't cd to /home/berk/cs240
+Makefile:2: recipe for target 'all' failed
+make: *** [all] Error 2
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ 
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ gedit MA[Kakefile 
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ gedit Makefile make[K
+cd ~/Masa*/CS/cs240
+ls
+Makefile
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ gediot m[K[K[K[Kt M<[Kakefile 
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ gedit Makefile make[Kgedit Makefile 
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ gedit Makefile make[Kgedit Makefile make[K
+cd ~/Masa*/CS/cs240 || ls #it was in a different directory in my PC
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ gedit Makefile 
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ make
+cd ~/Masa*/CS/cs240; ls #it was in a different directory in my PC
+announce.html  assets  docs	      exercises  index.html  labs  online    README.md	umt.make
+announce.umt   bin     exams-quizzes  hws	 index.umt   misc  projects  slides
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'MAIN(' `find ~/cs240/projects -name '**.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' `find ~/cs240/projects -name '*.[1Pcc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C' `find ~/cs240/projects -name '*.c[C[1P'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C' `find ~/cs240/projects -name '*.cc[1P'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C' `find ~/cs240/projects -name '*.cc'[1P`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C' `find ~/cs240/projects -name '*.cc'`[K[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[Cm' `find ~/cs240/projects -name '*.cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[Ca' `find ~/cs240/projects -name '*.cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[Ci' `find ~/cs240/projects -name '*.cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[Cn' `find ~/cs240/projects -name '*.[Cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C(' `find ~/cs240/projects -name '*.cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/~/cs240/projects -name '*.cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~/cs240/projects -name '*[1P.cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/cs240/projects -name '*.cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CM/cs240/projects -name '*.cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca/cs240/projects -name '*.cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs/cs240/projects -name '*.cc'`[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C*/cs240/projects -na[1@m[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/cs240/projects -n[1@a[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC/cs240/projects -[1@n[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CS/cs240/projects [1@-[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'main(' `find ~/Mas*/CS/cs240/projects  -name '*.cc'`; wc -l
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'main(' `find ~/Mas*/CS/cs240/projects  -name '*.cc'`; wc -l[K[K[K[K[K[K[K\[K ||\[K wc -l
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'main(' `find ~/Mas*/CS/cs240/projects  -name '*.cc'` || wc -l[1P
+4
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'main(' `find ~/Mas*/CS/cs240/projects  -name '*.cc'` | wc -l[1P[1@*[1P[1@&
+[1] 4438
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+^C
+[1]+  Bitti                   grep --color=auto -i 'main(' `find ~/Mas*/CS/cs240/projects -name '*.cc'`
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'main(' `find ~/Mas*/CS/cs240/projects  -name '*.cc'` & wc -l[1@&
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'main(' `find ~/Mas*/CS/cs240/projects  -name '*.cc'` && wc -l[1P[1P[1P[1@'[1P[1@;[C[C[C[C[C[C ^[K&
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[1] 4450
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ jobs
+[1]+  Durdu                   wc -l
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ jobsgrep -i 'main(' `find ~/Mas*/CS/cs240/projects  -name '*.cc'`; wc -l &[K[K
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ grep -i 'main(' `find ~/Mas*/CS/cs240/projects  -name '*.cc'`; wc -l[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwgrep -i 'main(' `find ~/Mas*/CS/cs240/projects[1@ [A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [Ccgrep -i 'main(' `find ~/Mas*/CS/cs240/project[1@s[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C grep -i 'main(' `find ~/Mas*/CS/cs240/projec[1@t[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C-grep -i 'main(' `find ~/Mas*/CS/cs240/proje[1@c[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[Clgrep -i 'main(' `find ~/Mas*/CS/cs240/proj[1@e[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/pro[1@j[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C<grep -i 'main(' `find ~/Mas*/CS/cs240/pr[1@o[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/p[1@r[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C
+
+bash: grep: Böyle bir dosya ya da dizin yok
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l < grep -i 'main(' `find ~/Mas*/CS/cs240/pprojects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/pr[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/pro[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/proj[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[Clgrep -i 'main(' `find ~/Mas*/CS/cs240/pro[1@j[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/proj[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C;grep -i 'main(' `find ~/Mas*/CS/cs240/pro[1@j[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/pr[1@o[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C
+
+p ^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l; grep -i 'main(' `find ~/Mas*/CS/cs240/prrojects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/pro[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/pr[1@o[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C| grep -i 'main(' `find ~/Mas*/CS/cs240/p[1@r[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/[1@p[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/p[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C
+
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l | grep -i 'main(' `find ~/Mas*/CS/cs240/pprojects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| grep -i 'main(' `find ~/Mas*/CS/cs240/[1@p[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C
+
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l || grep -i 'main(' `find ~/Mas*/CS/cs240//projects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/p[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/pr[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C& grep -i 'main(' `find ~/Mas*/CS/cs240/p[1@r[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C
+
+[2] 4772
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+
+[2]+  Durdu                   wc -l
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l & grep -i 'main(' `find ~/Mas*/CS/cs240/pprojects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[3] 4782
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc[m[K[36m[K:[m[K[01;31m[Kmain([m[Kint argc, char *argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char* argv[])
+[35m[K/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc[m[K[36m[K:[m[Kint [01;31m[Kmain([m[Kint argc, char *argv[]) {
+
+[3]+  Durdu                   wc -l
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ 6wc -l & grep -i 'main(' `find ~/Mas*/CS/cs240/pprojects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^ grep -i 'main(' `find ~/Mas*/CS/cs240/[1@p[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/p[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C% grep -i 'main(' `find ~/Mas*/CS/cs240/[1@p[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/p[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C& grep -i 'main(' `find ~/Mas*/CS/cs240/[1@p[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C
+
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l && grep -i 'main(' `find ~/Mas*/CS/cs240//projects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/p[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/pr[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/pro[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/proj[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/pro[1@j[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C~grep -i 'main(' `find ~/Mas*/CS/cs240/pr[1@o[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/pro[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C`grep -i 'main(' `find ~/Mas*/CS/cs240/pr[1@o[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l `grep -i 'main(' `find ~/Mas*/CS/cs240/prrojects -name '*.cc'``
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l `grep -i 'main(' `find ~/Mas*/CS/cs240/prrojects -name '*.cc'``[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwc -l && grep -i 'main(' `find ~/Mas*/CS/cs240//projects -name '*.cc'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C grep -i 'main(' `find ~/Mas*/CS/cs240/p[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C `[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C` grep -i 'main(' `find ~/Mas*/CS/cs240/[1@p[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C` grep -i 'main(' `find ~/Mas*/CS/cs240/p[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C
+
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l ` grep -i 'main(' `find ~/Mas*/CS/cs240/pprojects -name '*.cc'` `[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l `[K~/Mas*//[KCS
+wc: /home/berk/Masaüstü/CS: Bir dizin
+0 /home/berk/Masaüstü/CS
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l ~/Mas*/CS/[K[K[K[K[K[K[K[K[K
+wc: /home/berk: Bir dizin
+0 /home/berk
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l[K -l ~/Mas*/CS` grep -i 'main(' `find ~/Mas*/CS/cs240/pprojects -name '*.cc'` `[C[K([K[K)[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/pr[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/pro[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C$grep -i 'main(' `find ~/Mas*/CS/cs240/pr[1@o[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C*grep -i 'main(' `find ~/Mas*/CS/cs240/p[1@r[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/pr[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C&grep -i 'main(' `find ~/Mas*/CS/cs240/p[1@r[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/pr[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C*grep -i 'main(' `find ~/Mas*/CS/cs240/p[1@r[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[Cgrep -i 'main(' `find ~/Mas*/CS/cs240/pr[1P[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C(grep -i 'main(' `find ~/Mas*/CS/cs240/p[1@r[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C
+
+wc: '/home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc:main(int': Böyle bir dosya ya da dizin yok
+wc: argc,: Böyle bir dosya ya da dizin yok
+wc: char: Böyle bir dosya ya da dizin yok
+wc: '*argv[])': Böyle bir dosya ya da dizin yok
+wc: '/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc:int': Böyle bir dosya ya da dizin yok
+wc: 'main(int': Böyle bir dosya ya da dizin yok
+wc: argc,: Böyle bir dosya ya da dizin yok
+wc: char: Böyle bir dosya ya da dizin yok
+wc: '*argv[])': Böyle bir dosya ya da dizin yok
+wc: '{': Böyle bir dosya ya da dizin yok
+wc: '/home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc:int': Böyle bir dosya ya da dizin yok
+wc: 'main(int': Böyle bir dosya ya da dizin yok
+wc: argc,: Böyle bir dosya ya da dizin yok
+wc: 'char*': Böyle bir dosya ya da dizin yok
+wc: 'argv[])': Böyle bir dosya ya da dizin yok
+wc: '/home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc:int': Böyle bir dosya ya da dizin yok
+wc: 'main(int': Böyle bir dosya ya da dizin yok
+wc: argc,: Böyle bir dosya ya da dizin yok
+wc: char: Böyle bir dosya ya da dizin yok
+wc: '*argv[])': Böyle bir dosya ya da dizin yok
+wc: '{': Böyle bir dosya ya da dizin yok
+0 toplam
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l $(grep -i 'main(' `find ~/Mas*/CS/cs240/pprojects -name '*.cc'`)[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfind ~/cs240/projects -name '*.cc'([K)
+find: ‘/home/berk/cs240/projects’: Böyle bir dosya ya da dizin yok
+^C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ wc -l $(find ~/cs240/projects -name '*.cc')[1@/[1@Ma/cs240/projects -name '*.cc') [A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs/cs240/projects -name '*.cc'))[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C*/cs240/projects -name '*.cc')[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/cs240/projects -name '*.cc')[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC/cs240/projects -name '*.cc')[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CS/cs240/projects -name '*.[Cc')[A]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+  159 /home/berk/Masaüstü/CS/cs240/projects/prj1-sol/wordcounts.cc
+   72 /home/berk/Masaüstü/CS/cs240/projects/prj2-sol/seq-test.cc
+   66 /home/berk/Masaüstü/CS/cs240/projects/prj2-sol/nums.cc
+  123 /home/berk/Masaüstü/CS/cs240/projects/prj2-sol/command.cc
+   72 /home/berk/Masaüstü/CS/cs240/projects/prj2/extras/seq-test.cc
+  123 /home/berk/Masaüstü/CS/cs240/projects/prj2/extras/command.cc
+  615 toplam
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ echo $"[K?
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ false; echo 123
+123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ false; echo 123[1P[1P[1P[1P[1P[1@t[1@r[1@u[1@e
+123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ pabvu[K[K[Kvucontrol
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ f;ase[K[K[K[Kalse ^^[K[K%%[K[K&& echo12[K[K 123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ false && echo 123[1P[1P[1P[1P[1P[1@t[1@r[1@u[1@e
+123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ false \\ [K[K[K|| echo 123
+123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ false || echo 123[1P[1P[1P[1P[1P[1@t[1@r[1@i[1@e
+
+Command 'trie' not found, did you mean:
+
+  command 'tree' from snap tree (1.8.0+pkg-3fd6)
+  command 'true' from deb coreutils
+  command 'tree' from deb tree
+  command 'tie' from deb texlive-binaries
+
+See 'snap info <snapname>' for additional versions.
+
+123
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ trie || echo 123[1P[1@u
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises/3-subshells[00m$ cd ..
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8/exercises[00m$ cd ..
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ ls
+[0m[01;34mexercises[0m  lab8.LOG
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ cd [K[K[Kexit
+Durmuş işler var.
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ ls
+[0m[01;34mexercises[0m  lab8.LOG
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab8[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab8[00m$ exit
+
+Script done on 2020-04-17 18:00:08-0400
