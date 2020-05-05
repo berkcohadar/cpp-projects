@@ -1,0 +1,189 @@
+Script started on 2020-05-05 17:47:04-0400
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10[00m$ cp -r ~/Mas*/CS/cs240/labs/lab10/ec[Kxer* .
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10[00m$ ls
+[0m[01;34mexercises[0m  lab10.LOG
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10[00m$ cd exercises/
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises[00m$ ls
+[0m[01;34m1-fact[0m  [01;34m2-tdd[0m  Makefile
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises[00m$ cd 1-fact/
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ make -f ..?[K/Makefile main
+g++ -I /home/berk/cs240/include -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -I /home/berk/cs240/include -MT fact.o -MMD -MP -MF .deps/fact.d -g -Wall -std=c++17 -c fact.cc
+g++ main.o fact.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ ./main 2 3 5 10
+2
+6
+120
+3628800
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ ./main 2 3 5 10make -f ../Makefile maintmainemainsmaintmain=main[1Pmain-main
+g++ -I /home/berk/cs240/include -MT test-main.o -MMD -MP -MF .deps/test-main.d -g -Wall -std=c++17 -c test-main.cc
+[01m[Ktest-main.cc:3:10:[m[K [01;31m[Kfatal error: [m[Kcatch.hh: Böyle bir dosya ya da dizin yok
+ #include [01;31m[K"catch.hh"[m[K
+          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+../Makefile:62: recipe for target 'test-main.o' failed
+make: *** [test-main.o] Error 1
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ make -f ../Makefile test-main[14P./main 2 3 5 10[K[K[K[K[K[K[K[K0
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ ./main 0make -f ../Makefile test-main[14P./main 2 3 5 10make -f ../Makefile main[14Pcd 1-fact/ls[Kcd 1-fact/make -f ../Makefile main[9P./main 2 3 5 10make -f ../Makefile test-main./main 0[K[Kgedit main=[K-t[K[K[K[K[K[K[K[K[K[K[K[Kls
+fact.cc  fact.hh  fact.o  [0m[01;32mmain[0m  main.cc  main.o  test-main.cc
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ gedit test-main.cc 
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ gedit fact.
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ gedit fact.hh[K[Kcc
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ gedit fact.cc[Ktest-main.cc ls[K./main 0make -f ../Makefile test-main
+g++ -I /home/berk/cs240/include -MT test-main.o -MMD -MP -MF .deps/test-main.d -g -Wall -std=c++17 -c test-main.cc
+[01m[Ktest-main.cc:3:10:[m[K [01;31m[Kfatal error: [m[Kcatch.hh: Böyle bir dosya ya da dizin yok
+ #include [01;31m[K"catch.hh"[m[K
+          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+../Makefile:62: recipe for target 'test-main.o' failed
+make: *** [test-main.o] Error 1
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ make -f ../Makefile test-main[16Pgedit fact.cc[Ktest-main.cc ls[K./main 0make -f ../Makefile test-main[14P./main 2 3 5 10
+2
+6
+120
+3628800
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ ./main 2 3 5 10[K[K[K[K[K[K[K[K0
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ ./main 02 3 5 10make -f ../Makefile test-main[16Pgedit fact.cc[Ktest-main.cc ls[K./main 0make -f ../Makefile test-main[14P./main 2 3 5 10make -f ../Makefile main[14Pcd 1-fact/make -f ../Makefile main
+g++ -I /home/berk/cs240/include -MT fact.o -MMD -MP -MF .deps/fact.d -g -Wall -std=c++17 -c fact.cc
+g++ main.o fact.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ ./main 0
+1
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ gedit main[K[K[K[Ktest-main.cc 
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/1-fact[00m$ cd ..
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises[00m$ cd 2-tdd/
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ls
+digit-sum.cc  digit-sum.hh  main.cc  test-main.cc
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ gedit main[K[K[K[Kdigit-sum.cc
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ls
+digit-sum.cc  digit-sum.hh  main.cc  test-main.cc
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ gedit main [K.cc
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ make =[K-f ../Mk[Kakefile main [A
+g++ -I /home/berk/cs240/include -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ -I /home/berk/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 7+2
+9
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 7+2k+8
+9
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 7+2k+8\\[K[K[K[K[K[K[K 02
+7
+2
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 7 02[K[K0[K2
+7
+2
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main 7 2[C~[K"[1@"
+9
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 2"02"
+9
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ 0[K./main "7 02"[1P"[1P"1"2"
+10
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "7 12"[1P"[1P"[1P"[1P"8"+"5"+"3"
+16
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+5+3"[1P7 12"02"[1P2"[2P7 202+2k+8[Kmake -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgedit main.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgedit main.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Ktest-main.cc 
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ gedit test-main.cc [5P./main "8+5+3"[K[K[K[K[K[K[K" 8 + x + 4"
+8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main " 8 + x + 4"gedit test-main.cc [1P[1P[1P[1P[1P
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc[K[2Pmain.cc ./main " 8 + x + 4"gedit test-main.cc [5P./main "8+5+3"[1P7 12"02"[1P2"[2P7 202+2k+8[Kmake -f ../Makefile main [A
+g++ -I /home/berk/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+5"
+13
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+5"+5"
+8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8++5"[1P5"[1P5"85"+5"
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "88+5"[1P+5"1+5"
+14
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "81+5"8+5"++5"[1P5"make -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pgedit digit-sum.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ gedit digit-sum.cc[5P./main "81+5"8+5"++5"[1P5"make -f ../Makefile main [A
+g++ -I /home/berk/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pgedit digit-sum.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P./main "81+5"
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "81+5"[1P+5"[C15"
+8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+15"[C[1P"[1P"+"1"
+8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8++1"[1P1"[C+"
+9
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+"1"1"
+9
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[1P"[1P"+"4"
+9
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1++4"11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[K]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"[C[C
+9
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1+11"+4"11"[2P"+1"15"1+5"make -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pgedit digit-sum.cc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile main [A
+g++ -I /home/berk/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+[01m[Kdigit-sum.cc:[m[K In function ‘[01m[Kint digitSum(const char*)[m[K’:
+[01m[Kdigit-sum.cc:13:21:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+   if( [01;35m[K(isdigit (c)) && (isdigit (temp))[m[K || ( c == '+' && temp == '+')) break;
+       [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+g++ main.o digit-sum.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main [A
+g++ -I /home/berk/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1"
+9
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1"1"
+8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+11"+11"[C[1P"
+8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8++1"`++1"[1P++1"1++1"
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "81++1"[1P++1"x++1"
+8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8x++1"[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K./main "81++1"[1P++1"11"[1P"make -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P./main "8+1+11"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile main [A
+g++ -I /home/berk/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main "81++1"
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "81++1"make -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main "81++1"[1P++1"
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8++1"1++1"make -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./main "81++1"[1P++1"11"
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+11"[1P"
+0
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1"1"+1"1++1"make -f ../Makefile main [A
+g++ -I /home/berk/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main[K[K[K[K[K[Kmake -f ../Makefile main [A
+g++ -I /home/berk/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+[01m[Kdigit-sum.cc:[m[K In function ‘[01m[Kint digitSum(const char*)[m[K’:
+[01m[Kdigit-sum.cc:11:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int c = *p, [01;35m[Ktemp[m[K = *(p+1);
+               [01;35m[K^~~~[m[K
+g++ main.o digit-sum.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./main "8+1"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1"[1P"
+9
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+1"make -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./main "8+1"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1"
+8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+11"[1P"make -f ../Makefile main [A
+g++ -I /home/berk/cs240/include -MT digit-sum.o -MMD -MP -MF .deps/digit-sum.d -g -Wall -std=c++17 -c digit-sum.cc
+g++ main.o digit-sum.o -o main
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ make -f ../Makefile main [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P./main "8+11"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8+11"[C[1P"[C+1"
+8
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ ./main "8++1"[C[1P"[1P"[1P"[1P"5"+"7"
+12
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises/2-tdd[00m$ cd ..
+]0;berk@berk-pc: ~/Masaüstü/CS/i240b/submit/lab10/exercises[01;32mberk@berk-pc[00m:[01;34m~/Masaüstü/CS/i240b/submit/lab10/exercises[00m$ exit
+
+Script done on 2020-05-05 18:46:34-0400
