@@ -1,5 +1,5 @@
 output: main.o job.o command.o command-stream.o
-	g++ main.o job.o command.o command-stream.o -o main
+	g++ main.o job.o command.o command-stream.o -o nums
 
 main.o: main.cc
 	g++ -c main.cc
